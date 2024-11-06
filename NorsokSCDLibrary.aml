@@ -15709,8 +15709,8 @@
           </Attribute>
           <Attribute Name="SignalClass" AttributeDataType="xs:string">
             <Description />
-            <DefaultValue />
-            <Value>Analogue</Value>
+            <DefaultValue>Analogue</DefaultValue>
+            <Value />
             <Constraint Name="LegalValues">
               <NominalScaledType>
                 <RequiredValue>Analogue</RequiredValue>
