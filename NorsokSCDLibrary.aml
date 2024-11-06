@@ -15711,7 +15711,12 @@
             <Description />
             <DefaultValue />
             <Value>Analogue</Value>
-            <Constraint />
+            <Constraint Name="LegalValues">
+              <NominalScaledType>
+                <RequiredValue>Analogue</RequiredValue>
+                <RequiredValue>Binary</RequiredValue>
+              </NominalScaledType>
+            </Constraint>
           </Attribute>
           <Attribute Name="CommunicationType" AttributeDataType="xs:string">
             <Description>Type of signal communcication</Description>
